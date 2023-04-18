@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/homepage.css">
+</head>
+<body>
+    <!--header-->
+    <header class="header">
+        <nav class="navbar">
+            <img src="/image/PT. Branches design.png" class="logo" alt="">
+        <div>
+          <a href="/profile.html" class="menu">About Us</a>  
+          <a href="/profile.html" class="menu">Contact</a>  
+          <a href="/profile.html" class="menu">More Info</a>  
+        </div>
+        </nav>
+    </header>
+
+    <!--main-->
+    <main>
+        <div class="container">
+         <section id="hero"></section>
+         <pre>
+            <h1 class="hero-title">Hello, Welcome to Branches Bakery!</h1>
+            <P class="hero-paragraf">Quality bread & Services</P>
+        </pre>
+            <img 
+            class= "hero-img"
+            src="/image/Branches Bakery.png" 
+        alt style="width: 1366px;height: 578px;">
+        
+        <div id="line"><hr /></div>
+
+                <section id="about"></section>
+            <h1 class="facil-title">Our Facilitation</h1>
+            <div class="facil-list">
+                <div>
+                <img 
+                class="facil-img"
+                src="/image/place.png" 
+                alt style="width:100px;height:100px;">
+                <p class="facil-paragraph">Comfortable Place</p>
+                </div>
+                <div>
+
+                <img 
+                class="facil-img"
+                src="image/bread.png" 
+                alt style="width: 100px;height:100px;">
+                <p class="facil-paragraph">Various Choices</p>
+                </div>
+
+                <div>
+                <img 
+                class="facil-img"
+                src="image/service.png" 
+                alt style="width:100px;height:100px;">
+                <p class="facil-paragraph">Quality Service</p>
+                </div>
+                </div>      
+       
+            <div id="line"><hr /></div>
+            <h1 style="font-size:40px;">Message Us</h1>
+                <section id="message">
+                <div class = "container">
+                <div class ="form-section">   
+                <form name="message-form" onsubmit="return validatedForm()">
+                Nama:
+                <Input placeholder="name" type="text" name="full-name" required />
+                <br />
+        
+                Tanggal lahir:
+                <input type="date" name="birth-date" />
+                <br />
+                
+                Jenis Kelamin:
+                <input type="radio" id="male" name="gender" value="Laki-laki" required />
+                <label for="male">Laki-laki</label>
+                <input type="radio" id="female" name="gender" value="Perempuan" required />
+                <label for="female">Perempuan</label>
+                <input type="radio" id="non-binary" name="gender" value="non-binary" required />
+                <label for="non-binary">Non-binary</label>
+                <br />
+        
+                Pesan:
+                <textarea placeholder="pesan" name="messages" required></textarea>
+                <br />
+        
+                <input type ="submit" value="submit" />
+                </form>
+                
+                </div>
+                </div>
+                </div>
+                 </section> 
+                 </div>
+                 
+         
+    </main>
+    <!--footer-->
+    <div class="footer">
+        <b>Copyright @2023</b>
+      </div>
+    <footer>
+    
+    </footer>                     
+</body>
+</html>
